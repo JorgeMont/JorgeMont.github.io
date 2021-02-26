@@ -8401,9 +8401,9 @@ h1, h2, h3, h4, h5,
       .ftco-about .one-half.img {
         height: 300px; } }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .services-section .container {
-    margin-top: -200px; } }
+    margin-top: -100px; } } */
 
 .services {
   -moz-transition: all 0.3s ease;
@@ -8958,7 +8958,7 @@ textarea.form-control {
   margin-bottom: 10px; }
 
 .ftco-counter .icon-video {
-  width: 100px;
+  /* width: 100px; */
   height: 100px;
   background: #eac15a;
   -webkit-animation: pulse 2s infinite;
@@ -9852,9 +9852,6 @@ textarea.form-control {
 }
 
 
-
-
-
 .logo-abogados{
 width: 90px;
 height: 10%;
@@ -9932,6 +9929,27 @@ display: block;
   color: #d3e0ea;
 }
 
+#us-container{
+  border-style: solid;
+  border-color: #eac15a;
+  color: red;
+  margin: 2em;
+}
+
+.paypal{
+  padding-left: 1em;
+  }
+
+
+  #section-us{
+    /* Section de Quienes somos */
+    /* background-color: #222831; */
+    background-color: #EBEBEB;
+    /* border-style: solid; */
+    
+  }
+
+/*------ Media queries -----*/
 @media(min-width:800px){
   .mov{
     display:none;
@@ -10009,9 +10027,7 @@ display: block;
     height: 500px;
   }
 }
-.paypal{
-padding-left: 1em;
-}
+
 
 /* @media(min-width:800px){
   .paypal{
@@ -10021,6 +10037,6 @@ padding-left: 1em;
    }
 } */
 
-#section-us{
-  background-color: #EBEBEB;
-}
+
+
+
