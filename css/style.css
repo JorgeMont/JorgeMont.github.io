@@ -10108,4 +10108,27 @@ display: block;
 
 }
 
+.sit-legal{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
 
+.texto-sit-legal{
+  padding: 3em 2em;
+}
+
+.img-sit-legal img{
+  height: 500px;
+  width:100%;
+}
+
+/* Media query de situacion legal */
+@media(max-width: 1028px){
+  .sit-legal{
+    grid-template-columns: 100%;
+  }
+
+  .img-sit-legal img{
+    height: 100%;
+  }
+}
