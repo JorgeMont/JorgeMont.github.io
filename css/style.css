@@ -10057,14 +10057,13 @@ display: block;
 .img-vision, .img-vision2{
   border-radius: 5px;
 }
-.img-vision img{
+.img-vision img, .img-vision2 img{
   height: 400px;
-  width: auto;
+  width: 100%;
   /* border-radius: 5px 0 0 5px; */
 }
-.img-vision img{
- width: 100%;
-}
+
+
 
 @media(max-width: 852px){
   .tile-about{
@@ -10101,9 +10100,11 @@ display: block;
     grid-area: imagen;
   }
 
-  .img-vision2 img{
+  .img-vision img, .img-vision2 img{
+    height: 300px;
     width: 100%;
-   }
+    /* border-radius: 5px 0 0 5px; */
+  }
 
 }
 
