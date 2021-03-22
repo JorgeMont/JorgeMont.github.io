@@ -10028,15 +10028,44 @@ display: block;
   }
 }
 
+.abm{
+  flex-direction: column;
+}
 
-/* @media(min-width:800px){
-  .paypal{
-   
- 
-    
-   }
-} */
+.tile-about{
+  background-color: #f8f9fa;
+  display: grid; 
+  grid-template-columns: 50% 50%;
+  height: auto;
+}
+.tile-text{
+  padding: 6em 4em 2em 4em;
+  text-align: justify;
+  /* font-family:  */
+}
 
+.img-vision{
+}
+.img-vision img{
+ width: 100%;
+}
 
+@media(max-width: 1057px){
+  /* Acomoda el padding del texto para que el texto cuadre con la imagen */
+  .tile-text{
+    padding: 4em 4em 2em 4em;
+    text-align: justify;
+    /* font-family:  */
+  }
+}
+
+@media(max-width: 973px){
+  .tile-about{
+    background-color: #f8f9fa;
+    display: grid; 
+    grid-template-columns: 100%;
+    height: auto;
+  }
+}
 
 
