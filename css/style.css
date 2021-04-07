@@ -10039,19 +10039,34 @@ display: block;
   }
 }
 
+
+.tile-about{
+  flex-basis: calc(50% - 1rem);
+  background-color: #f9f6f7;
+  height: auto;
+  margin: 2em 1em;
+  border-radius: 5px;
+}
+
+.tile-text{
+  padding: 3em 4em 2em 4em;
+  text-align: justify;
+  /* font-family:  */
+}
+
 @media(max-width: 574px){
   #vision{
     /* height: 1450px; */
     height: 80%;
   }
-
+/* ESTILOS MISION VISION EN ABOUT */
 .abm{
   flex-direction: row;
   /* display: grid; */
   /* grid-template-columns: 50% 50%; */
 }
 
-.tile-about{
+.tile-about, .tile-about2{
   /* background-color: #f8f9fa; */
   flex-basis: calc(50% - 1rem);
   background-color: #f9f6f7;
@@ -10065,6 +10080,7 @@ display: block;
   /* font-family:  */
 }
 
+}
 
 
 @media(max-width: 852px){
@@ -10089,15 +10105,11 @@ display: block;
     height: auto;
     margin: 2em 1em;
     border-radius: 5px;
-    grid-template-areas:"imagen"
-                        "texto";
-    
   }
 
   
 
   .tile-text2{
-    grid-area: texto;
     padding: 3em 4em 2em 4em;
     text-align: justify;
   }
