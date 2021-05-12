@@ -1,0 +1,137 @@
+body{
+    /* background: rgb(2,0,36);
+    background: linear-gradient(57deg, rgba(2,0,36,1) 0%, rgba(96,94,164,1) 0%, rgba(97,92,162,1) 100%); */
+    background-image: url('fondo.png');
+    background-repeat: no-repeat;
+    font-family: 'Pangolin', cursive;
+    background-size: cover;
+}
+
+main{
+    /* text-align: center; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    padding: 0 2rem;
+    flex: 1;
+}
+
+.checker{
+    flex: 1;
+    padding: 0 2rem;
+}
+
+.info h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Luckiest Guy', cursive;
+    /* font-family: 'Righteous', cursive; */
+    letter-spacing: 3px;
+}
+
+p{
+    /* color: #ffc0cb; */
+    color: white;
+    font-size: larger;
+
+}
+
+.ejemplo{
+    text-align: center;
+    font-weight: 900;
+    margin: 3rem 0;
+}
+
+.resultado h1{
+    color: #ffc0cb;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.formulario{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-label{
+    font-family: 'Pangolin', cursive;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.entradas{
+    margin-bottom: 2rem;
+    /* display: flex; */
+    margin: 2rem auto;
+    /* justify-content: space-evenly; */
+}
+
+.seleccion{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.campo-entrada{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: #ffc0cb;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    width: 40%;
+    padding-right: 1rem;
+    /* height: 100%; */
+}
+
+.campo-entrada::placeholder{
+    color: white;
+    opacity: 0.3;
+}
+
+.boton{
+    padding: 0 2rem;
+    border-radius: 5px;
+    background-color: #ffc0cb;
+    color:white;
+    border: none;
+    font-size: 1.75rem;
+    font-weight: 600;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.boton:hover{
+    color: #1F2029;
+}
+
+@media (max-width: 1000px){
+    main{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px){
+    .entradas{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    .campo-entrada{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
